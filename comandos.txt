@@ -1,0 +1,7 @@
+npm create vite@latest . -----> cria o projeto React.js na pasta que está
+    -> NomeDoProjeto
+    -> React
+    -> JS ou TS
+    -> Yes
+npm install ------------------> instala o npm
+nmp run dev ------------------> manda o link do localhost
