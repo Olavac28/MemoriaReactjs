@@ -1,7 +1,10 @@
-npm create vite@latest . -----> cria o projeto React.js na pasta que está
+npm create vite@latest . ------------------> cria o projeto React.js na pasta que está
     -> TituloDoProjeto
     -> React
     -> JS ou TS
     -> Yes
-npm install ------------------> instala o npm
-npm run dev ------------------> manda o link do localhost
+npm install -------------------------------> instala o npm
+npm run dev -------------------------------> manda o link do localhost
+rm -rf node_modules package-lock.json -----> usar no projeto caso esteja ultilizando o Pop Os
+    -> npm cache clean --force
+    -> npm install
