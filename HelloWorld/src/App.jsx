@@ -6,6 +6,20 @@ function App() {
   //    [nome da variável, nome da Função](estado inicial da variável)
   const [mensagem, setMensagem] = useState('Olá Mundo'); //state
 
+  const [tasks, setTask] = useState([
+      {
+        id: 1,
+        objetivo: 'estudar',
+        isCompleted: false
+      },
+      {
+        id: 2,
+        objetivo: 'passear com o cachorro',
+        isCompleted: false
+      }
+    ]
+  );
+
   return ( //nn pode retornar mais de 1 elemento
     <div>
       <h1>{mensagem}</h1> {/*assim funciona o uso de variáveis*/}
@@ -15,9 +29,12 @@ function App() {
 
       <hr />
 
-      <h1>Gerenciador de tarefas</h1>
-      <AddTask/> {/*importando um componente*/}
-      <Tasks />
+      <div>
+        <h1>Gerenciador de tarefas</h1>
+        <AddTask/> {/*importando um componente*/}
+        {/*}{componente props variável}*/}
+        <Tasks tasks={tasks} banana={"banana"}/>
+        </div>
     </div>
   );
 }

@@ -1,3 +1,7 @@
 .muda-cor {
     color: red;
 }
+
+.tasks h1 p {
+    margin-bottom: 20px;
+}
