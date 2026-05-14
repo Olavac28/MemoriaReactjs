@@ -9,6 +9,7 @@ function AppRoutes() {
     <BrowserRouter>
       <Routes>
 
+        {/*         "caminho"   {componetes que irão para o App.jsx (pode ser mais de um)}*/}
         <Route path="/" element={<Home />} /> {/*página inicial*/}
 
         <Route path="/sobre" element={<Sobre />} />
