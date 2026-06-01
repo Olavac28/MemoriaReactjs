@@ -5,7 +5,7 @@ function Tasks(props) { //props = nome.parametro
             <span>{props.banana}</span> {/*retorna 1*/}
             
             <h1>
-                {props.tasks.map((task) => { //usa o map() que é quase um foreach()
+                {props.tasks.map((task) => { //usa o map() que é quase um foreach(); usado o map() pq precisa de um retorno
                     return <p>{task.objetivo}</p>
                 })}
             </h1>
