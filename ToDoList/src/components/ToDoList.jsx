@@ -10,7 +10,7 @@ function ToDoList(props) {
     return(
         <div className='box'>
             {props.tasks.map((task) => {
-                return <div>
+                return <div className='iten-box'>
                     <h2>{task.title}</h2>
                     <span>{task.description}</span>
                 </div>

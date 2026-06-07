@@ -1,5 +1,5 @@
 .box {
-    width: 80%;
+    width: 40%;
     border: 5px solid slateblue;
     margin-top: 20px;
     padding: 10px;
@@ -11,7 +11,7 @@
     flex-direction: column;
 }
 
-input, textarea, button {
+input, textarea, button, .iten-box {
     border: skyblue solid 3px;
     border-radius: 10px;
     font-size: 20px;
@@ -23,12 +23,18 @@ input {
     height: 50px;
     /*nn muda a borda quando selecionado*/
     outline: none;
+    padding-left: 10px;
+    font-size: 30px;
 }
 
 textarea {
     margin-bottom: 10px;
-    width: 600px;
+    width: 900px;
     outline: none;
+    /*nn pode mudar o tamanho mais*/
+    resize: none;
+    padding-left: 10px;
+    padding-top: 5px;
 }
 
 button {
@@ -38,4 +44,19 @@ button {
 
 button:hover {
     cursor: pointer;
+}
+
+.iten-box {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.iten-box:last-child {
+    margin-bottom: 0;
+}
+
+.iten-box h2 {
+    text-align: center;
 }
