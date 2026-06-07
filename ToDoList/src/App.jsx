@@ -9,7 +9,7 @@ function App() {
   function addNewTask(title, description) {
     //adiciona um novo objeto ao array de tarefas
     setTasks(prevTasks => [
-      ...prevTasks,
+      ...prevTasks, //pode ser outra coisa aqui no lugar de objetos
       {
         //pega automaticamente os argumentos
         title,

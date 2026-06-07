@@ -2,4 +2,40 @@
     width: 80%;
     border: 5px solid slateblue;
     margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, textarea, button {
+    border: skyblue solid 3px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    width: 300px;
+    height: 50px;
+    /*nn muda a borda quando selecionado*/
+    outline: none;
+}
+
+textarea {
+    margin-bottom: 10px;
+    width: 600px;
+    outline: none;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+}
+
+button:hover {
+    cursor: pointer;
 }

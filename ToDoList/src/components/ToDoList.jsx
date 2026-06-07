@@ -1,8 +1,21 @@
+import { useEffect } from 'react';
 import './componentsStyle.css'
 
-function ToDoList() {
+function ToDoList(props) {
+    //verifica se o array é vazio
+    if(props.tasks.length === 0)
+        //se for, nn retorna o componente
+        return null;
+
     return(
-        <div className='box'></div>
+        <div className='box'>
+            {props.tasks.map((task) => {
+                return <div>
+                    <h2>{task.title}</h2>
+                    <span>{task.description}</span>
+                </div>
+            })}
+        </div>
     )
 }
 
