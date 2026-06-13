@@ -1,0 +1,33 @@
+.body {
+    background-color: rgb(44, 12, 142);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box h1 {
+    font-size: 150px;
+}
+
+.box button {
+    font-size: 150px;
+    background-color: rgb(44, 12, 142);
+    color: white;
+    border: 10px solid white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
