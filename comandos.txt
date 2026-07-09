@@ -2,7 +2,7 @@ npm create vite@latest . ------------------> cria o projeto React.js na pasta qu
     -> TituloDoProjeto
     -> React
     -> JS ou TS
-    -> Yes
 npm install -------------------------------> instala o npm caso precisar
 npm run dev -------------------------------> manda o link do localhost
+    -> CTRL + c para sair
 npm install react-router-dom --------------> instala o React Router para usar várias paginas no React.js
